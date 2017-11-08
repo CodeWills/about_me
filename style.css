@@ -1,7 +1,28 @@
 header {
   text-align: center;
-  color: white;
+  font-size: 150%;
+  color: green;
   background: black;
   padding-top: 20px;
   padding-bottom: 20px;
+}
+
+p {
+  background: black;
+  color: green;
+  font-size: 200%;
+}
+
+body {
+  background: green;
+
+}
+
+main{
+  text-align: center;
+}
+
+footer{
+  font-size: 150%;
+  text-align: center;
 }
