@@ -1,6 +1,19 @@
 'use strict';
 
 var points = 0;
+console.log('begining score', points);
+
+function addNumbers () {
+  alert('This function is an adding machine. Please Follow Instructions');
+  var num1 = parseInt(prompt('Give me a whole number'));
+  var num2 = parseInt(prompt('Give me another whole number'));
+  console.log('num1',num1);
+  console.log('num1',num2);
+  alert('Your answer is..........');
+  alert(num1 + num2 );
+}
+
+addNumbers();
 
 var game = prompt('Do you want to play a guessing game about me?').toLowerCase();
 console.log('do they want to play:', game);
@@ -76,6 +89,7 @@ var theNumber = Math.round(Math.random()*15);
 
 var x = 4;
 var counter = false;
+console.log('Counter: ', counter);
 
 while(x > 0) {
   var guessedNum = parseInt(prompt('Guess what number I am thinking of between 1 and 15.'));
