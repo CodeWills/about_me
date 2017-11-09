@@ -20,9 +20,14 @@ body {
 
 main{
   text-align: center;
+  background: green;
 }
 
 footer{
   font-size: 150%;
   text-align: center;
+}
+ul.a{
+  background: black;
+  color: green;
 }
